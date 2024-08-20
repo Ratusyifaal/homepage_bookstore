@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booker.store Marketplace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="navbar-brand">Booker.store</a>
+            <form class="d-flex w-50">
+                <input class="form-control me-2" type="search" placeholder="Cari buku..." aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Cari</button>
+            </form>
+            <div>
+                <a href="#" class="btn btn-outline-light me-2">Login</a>
+                <a href="#" class="btn btn-light">Sign Up</a>
+                <a href="#" class="btn btn-light ms-3 position-relative">
+                    <i class="bi bi-cart-fill"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        0
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Temukan Buku Favoritmu</h1>
+            <p class="lead">Diskon besar untuk koleksi bestseller! Belanja sekarang dan nikmati promosi menarik.</p>
+            <a href="#" class="btn btn-lg btn-light">Belanja Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Kategori Utama -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Kategori Populer</h2>
+            <div class="row text-center">
+                <div class="col-md-2">
+                    <div class="category-box p-3 border">
+                        <i class="bi bi-book-half display-4"></i>
+                        <h5>Fiksi</h5>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="category-box p-3 border">
+                        <i class="bi bi-journal-album display-4"></i>
+                        <h5>Non-Fiksi</h5>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="category-box p-3 border">
+                        <i class="bi bi-child display-4"></i>
+                        <h5>Anak-anak</h5>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="category-box p-3 border">
+                        <i class="bi bi-book display-4"></i>
+                        <h5>Komik</h5>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="category-box p-3 border">
+                        <i class="bi bi-lightbulb display-4"></i>
+                        <h5>Edukasi</h5>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="category-box p-3 border">
+                        <i class="bi bi-bookmark display-4"></i>
+                        <h5>Sejarah</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buku Rekomendasi -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Rekomendasi Untuk Anda</h2>
+            <div class="row">
+                <!-- Repeat for each book -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="image/Buku 5.jpeg" class="card-img-top" alt="Namaku Alam">
+                        <div class="card-body">
+                            <h5 class="card-title">Namaku Alam</h5>
+                            <p class="card-text">Leila S.Chudori</p>
+                            <p class="card-text text-success">Rp 99.000</p>
+                            <a href="#" class="btn btn-primary">Tambahkan ke Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat until end -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="image/buku 3.jpeg" class="card-img-top" alt="Bintang">
+                        <div class="card-body">
+                            <h5 class="card-title">Bintang</h5>
+                            <p class="card-text">Tere Liye</p>
+                            <p class="card-text text-success">Rp 89.000</p>
+                            <a href="#" class="btn btn-primary">Tambahkan ke Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat until end -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="image/Buku 7.jpeg" class="card-img-top" alt="Sejarah Dunia">
+                        <div class="card-body">
+                            <h5 class="card-title">Sejarah Dunia untuk Pembaca Muda</h5>
+                            <p class="card-text">Ernst H.Gombrich</p>
+                            <p class="card-text text-success">Rp 94.000</p>
+                            <a href="#" class="btn btn-primary">Tambahkan ke Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat until end -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="image/Buku 8.jpeg" class="card-img-top" alt="Sejarah Indonesia Modern">
+                        <div class="card-body">
+                            <h5 class="card-title">Sejarah Indonesia Modern</h5>
+                            <p class="card-text">M.C. Ricklefs</p>
+                            <p class="card-text text-success">Rp 119.000</p>
+                            <a href="#" class="btn btn-primary">Tambahkan ke Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Promo and Discount -->
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Promo dan Diskon</h2>
+            <div class="alert alert-warning" role="alert">
+                Diskon 50% untuk buku terlaris, berlaku hingga akhir bulan ini!
+            </div>
+            <a href="#" class="btn btn-lg btn-success">Lihat Promo</a>
+        </div>
+    </section>
+
+    <!-- Koleksi Terbaru -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Koleksi Terbaru</h2>
+            <div id="newArrivalsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Repeat for each set of books -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img src="image/buku 1.jpeg" class="card-img-top" alt="Bumi">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bumi</h5>
+                                        <p class="card-text">Tere Liye</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Repeat for more books -->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <img src="image/buku 2.jpeg" class="card-img-top" alt="Bulan">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Bumi</h5>
+                                                <p class="card-text">Tere Liye</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- Repeat for more books -->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="card">
+                                                    <img src="image/buku 3.jpeg" class="card-img-top" alt="Bintang">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Bumi</h5>
+                                                        <p class="card-text">Tere Liye</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                <!-- Repeat for more books -->
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <img src="image/Buku 4.jpeg" class="card-img-top" alt="Janshen">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Janshen</h5>
+                                                    <p class="card-text">Risa Saraswati</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                    <!-- Repeat for more carousel items -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#newArrivalsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#newArrivalsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Pengguna -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Apa Kata Mereka</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="testimonial p-4 border rounded">
+                        <p>"Buku sampai tepat waktu dan kondisinya sangat baik!"</p>
+                        <h5>- Oppang</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial p-4 border rounded">
+                        <p>"Rekomendasi buku sangat membantu saya menemukan buku favorit baru."</p>
+                        <h5>- Belangie</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial p-4 border rounded">
+                        <p>"Pelayanan cepat dan proses pembelian sangat mudah. Sangat direkomendasikan!"</p>
+                        <h5>- Djagat</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Tentang Kami</h5>
+                    <p>Booker.store adalah marketplace buku terkemuka yang menawarkan berbagai koleksi buku dari berbagai genre.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Navigasi Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Bantuan</a></li>
+                        <li><a href="#" class="text-white">Kebijakan Privasi</a></li>
+                        <li><a href="#" class="text-white">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Kontak Kami</h5>
+                    <p>Email: support@bookerstore.com</p>
+                    <p>Telepon: +62 123 456 789</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>                       <i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Bootstrap JavaScript and Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+

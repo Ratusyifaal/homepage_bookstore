@@ -1,0 +1,40 @@
+/* Custom Styles for Bookstore Marketplace */
+
+/* Hero Section */
+.hero-section {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Category Box */
+.category-box {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.category-box:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonial */
+.testimonial {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer .social-icons a {
+    font-size: 1.5rem;
+}
